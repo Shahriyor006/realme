@@ -11,6 +11,13 @@
         padding: 0 20px;
     }
 }
+@media screen and (max-width: 990px) {
+    .body img{
+        object-fit: contain;
+        width: 100%;
+        height: 80%;
+    }
+}
 @media screen and (max-width: 770px) {
     .top__navbar{
         display: none;
@@ -27,6 +34,12 @@
     .sticky ul{
         flex-wrap: wrap;
     }
+    .body img{
+        object-fit: contain;
+        width: 100%;
+        height: 60%;
+        object-fit: cover;
+    }
 }
 @media screen and (max-width: 450px) {
     .sticky{
@@ -39,6 +52,12 @@
     }
     .navbar{
         padding: 0 50px;
+    }
+    .body img{
+        object-fit: contain;
+        width: 100%;
+        height: 40%;
+        object-fit: cover;
     }
 }
 
