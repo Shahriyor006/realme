@@ -1,0 +1,45 @@
+@media screen and (max-width: 1100px) {
+    .navbar{
+        padding: 0 20px;
+        gap: 100px;
+        font-size: 14px;
+    }
+    .top__navbar{
+        padding: 0 20px;
+    }
+    .sticky{
+        padding: 0 20px;
+    }
+}
+@media screen and (max-width: 770px) {
+    .top__navbar{
+        display: none;
+    }
+    .navbar{
+        font-size: 14px;
+    }
+    .navbar div:nth-child(2){
+        display: none;
+    }
+    .navbar__next i{
+        display: inline-block;
+    }
+    .sticky ul{
+        flex-wrap: wrap;
+    }
+}
+@media screen and (max-width: 450px) {
+    .sticky{
+        padding: 10px;
+    }
+    .sticky ul{
+        gap: 10px;
+        padding: 10px;
+        line-height: 1.2;
+    }
+    .navbar{
+        padding: 0 50px;
+    }
+}
+
+
