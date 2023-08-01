@@ -89,6 +89,7 @@ body{
     align-items: center;
     justify-content: space-evenly;
     gap: 200px;
+    background: #fff;
 }
 .navbar__next i{
     font-size: 24px;
@@ -121,8 +122,50 @@ body{
     height: 100%;
     object-fit: cover;
 }
-
-
-
-
+.under__body{
+    width: 100%;
+    min-height: 200px;
+    margin-top: 50px;
+    padding: 0 5%;
+    display: grid;
+    grid-template-columns: repeat(8,1fr);
+    grid-gap: 16px;
+}
+.under__body>div{
+    width: 150px;
+    height: 150px;
+    text-align: center;
+    font-size: 18px;
+}
+.under__body img{
+    width: 100%;
+}
+.new__arrivals{
+    width: 100%;
+    height: 650px;
+    background: #F5F5F5;
+    padding: 50px 10%;
+    display: flex;
+    gap: 20px;
+}
+.new__arrivall,
+.new__arrival{
+    width: 50%;
+    height: 100%;
+    border-radius: 25px;
+}
+.new__arrival img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 25px;
+}
+.new__arrivall img{
+    width: 100%;
+    height: 50%;
+    border-radius: 25px;
+}
+.new__arrivall img:first-child{
+    padding-bottom: 20px;
+}
 
