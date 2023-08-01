@@ -21,6 +21,15 @@
     .under__body img{
         margin-bottom: -25px;
     }
+    .new__arrivals{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .new__arrival,
+    .new__arrivall{
+        width: 80%;
+        height: 500px;
+    }
 }
 @media screen and (max-width: 990px) {
     .body img{
@@ -75,6 +84,30 @@
     .under__body div{
         font-size: 14px;
     }
+    .new__arrivals{
+        padding: 20px 5%;
+    }
+    .new__arrival,
+    .new__arrivall{
+        font-size: 18px;
+    }
+    .new__arrivall{
+        height: 350px;
+    }
+    .new__arrival{
+        height: 300px;
+    }
+    .new__arrival p,
+    .new__arrivall p{
+        font-size: 14px;
+    }
+    .footer ul{
+        gap: 20px;
+        grid-template-columns: repeat(3,1fr);
+    }
+    /* .footer ul li:nth-child(5){
+        display: none;
+    } */
 }
 @media screen and (max-width: 450px) {
     .sticky{
@@ -95,7 +128,7 @@
         object-fit: cover;
     }
     .body{
-        margin-bottom: -250px;
+        margin-bottom: -300px;
     }
     .under__body{
         grid-template-columns: repeat(3, 1fr);
@@ -108,6 +141,9 @@
     }
     .under__body img{
         margin-bottom: -20px;
+    }
+    .new__arrivals{
+        padding: 15px 0%;
     }
 }
 @media screen and (max-width: 320px) {
@@ -135,6 +171,21 @@
     }
     .under__body img{
         margin-bottom: -20px;
+    }
+    .new__arrival p,
+    .new__arrivall p{
+        font-size: 12px;
+    }
+    .new__arrival b,
+    .new__arrivall b{
+        font-size: 16px;
+    }
+    .footer ul{
+        grid-template-columns: repeat(2, 1fr);
+        margin-top: 50px;
+    }
+    .footer i{
+        margin-left: 15px;
     }
 }
 
